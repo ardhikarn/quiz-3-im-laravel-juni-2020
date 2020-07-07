@@ -56,12 +56,6 @@
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
-        ], 
-        "check-route-list" : [
-            "@php artisan route:list"
-        ],
-        "migrate-seed": [
-            "@php artisan migrate:fresh --seed"
         ]
     }
 }
